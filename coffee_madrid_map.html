@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_82f792f94f0007c7e0c755243a1bb065 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_82f792f94f0007c7e0c755243a1bb065" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_82f792f94f0007c7e0c755243a1bb065 = L.map(
+                "map_82f792f94f0007c7e0c755243a1bb065",
+                {
+                    center: [40.4167047, -3.7035825],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_496123dcb4d1b1742c5bf95e69711edf = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_496123dcb4d1b1742c5bf95e69711edf.addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var marker_72582eed793ef2e29793bd88232ae5a7 = L.marker(
+                [40.4167047, -3.7035825],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_e55513f2efa67542d0f9df4c32854733 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b73df86e02278def491b0ad737db412b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbf84196c2c0f2f35470d51042498e36 = $(`<div id="html_dbf84196c2c0f2f35470d51042498e36" style="width: 100.0%; height: 100.0%;">Madrid Center</div>`)[0];
+                popup_b73df86e02278def491b0ad737db412b.setContent(html_dbf84196c2c0f2f35470d51042498e36);
+            
+        
+
+        marker_72582eed793ef2e29793bd88232ae5a7.bindPopup(popup_b73df86e02278def491b0ad737db412b)
+        ;
+
+        
+    
+    
+                marker_72582eed793ef2e29793bd88232ae5a7.setIcon(icon_e55513f2efa67542d0f9df4c32854733);
+            
+    
+            var marker_0801ca5f5c4f61272f39189735d83b5c = L.marker(
+                [40.416526, -3.705941],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_a9e9de1b61e8cc8db1c304048e3970aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b60c12f4f59a3ffa01094446d9e6636 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6fcdc472c755b99a646f64174cfbec32 = $(`<div id="html_6fcdc472c755b99a646f64174cfbec32" style="width: 100.0%; height: 100.0%;">         <b>El Riojano</b><br>         Address: Calle Mayor, 10, 28013 Madrid Comunidad de Madrid<br>         Distance: 198 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416526, -3.705941         </div>`)[0];
+                popup_3b60c12f4f59a3ffa01094446d9e6636.setContent(html_6fcdc472c755b99a646f64174cfbec32);
+            
+        
+
+        marker_0801ca5f5c4f61272f39189735d83b5c.bindPopup(popup_3b60c12f4f59a3ffa01094446d9e6636)
+        ;
+
+        
+    
+    
+                marker_0801ca5f5c4f61272f39189735d83b5c.setIcon(icon_a9e9de1b61e8cc8db1c304048e3970aa);
+            
+    
+            var marker_549a9a8329b62f5f17d5119198dee89d = L.marker(
+                [40.415673, -3.706148],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_289a3a1fcb14db5ee02bee2a8fecf92a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_393cc8e5824cf15e24f74acd60e41540 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ef96f6477a6b8de68b4e8790f454588 = $(`<div id="html_1ef96f6477a6b8de68b4e8790f454588" style="width: 100.0%; height: 100.0%;">         <b>Mimi's Creperia</b><br>         Address: Calle Postas, 17, 28012 Madrid Comunidad de Madrid<br>         Distance: 248 meters<br>         Hours: Hours not available<br>         Coordinates: 40.415673, -3.706148         </div>`)[0];
+                popup_393cc8e5824cf15e24f74acd60e41540.setContent(html_1ef96f6477a6b8de68b4e8790f454588);
+            
+        
+
+        marker_549a9a8329b62f5f17d5119198dee89d.bindPopup(popup_393cc8e5824cf15e24f74acd60e41540)
+        ;
+
+        
+    
+    
+                marker_549a9a8329b62f5f17d5119198dee89d.setIcon(icon_289a3a1fcb14db5ee02bee2a8fecf92a);
+            
+    
+            var marker_a6d6cf22b35bef4cd0b8cc81ceed0ca7 = L.marker(
+                [40.419109, -3.702326],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_846348c69c14fdceb09766e44992d77e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_667530c7d101377df614dc916139e450 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97fb0ab99f4b42149475951795b5f108 = $(`<div id="html_97fb0ab99f4b42149475951795b5f108" style="width: 100.0%; height: 100.0%;">         <b>El Jardín de Salvador Bachiller</b><br>         Address: Calle Montera, 37, 28013 Madrid Comunidad de Madrid<br>         Distance: 287 meters<br>         Hours: Hours not available<br>         Coordinates: 40.419109, -3.702326         </div>`)[0];
+                popup_667530c7d101377df614dc916139e450.setContent(html_97fb0ab99f4b42149475951795b5f108);
+            
+        
+
+        marker_a6d6cf22b35bef4cd0b8cc81ceed0ca7.bindPopup(popup_667530c7d101377df614dc916139e450)
+        ;
+
+        
+    
+    
+                marker_a6d6cf22b35bef4cd0b8cc81ceed0ca7.setIcon(icon_846348c69c14fdceb09766e44992d77e);
+            
+    
+            var marker_c2b08446f60be500b3178e6c1d8186be = L.marker(
+                [40.416821, -3.706735],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_818f4b090a9bac5e20f21f180bdbb348 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f7a8a2b59dbfa386316cc477ebed335 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7c94532ba435520501732a14ad2230d5 = $(`<div id="html_7c94532ba435520501732a14ad2230d5" style="width: 100.0%; height: 100.0%;">         <b>Chocolatería San Ginés</b><br>         Address: Pasadizo de San Ginés, 5 (C. Arenal), 28013 Madrid Comunidad de Madrid<br>         Distance: 295 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416821, -3.706735         </div>`)[0];
+                popup_8f7a8a2b59dbfa386316cc477ebed335.setContent(html_7c94532ba435520501732a14ad2230d5);
+            
+        
+
+        marker_c2b08446f60be500b3178e6c1d8186be.bindPopup(popup_8f7a8a2b59dbfa386316cc477ebed335)
+        ;
+
+        
+    
+    
+                marker_c2b08446f60be500b3178e6c1d8186be.setIcon(icon_818f4b090a9bac5e20f21f180bdbb348);
+            
+    
+            var marker_8f4fae31454959beaab7a90303177951 = L.marker(
+                [40.416473, -3.707112],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_0315829b78b847869d723aff9356d185 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e2a059061f9c73d514963704740373fa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6f672d6950ccd714f89384f05f83354 = $(`<div id="html_c6f672d6950ccd714f89384f05f83354" style="width: 100.0%; height: 100.0%;">         <b>La Rollerie</b><br>         Address: Calle Mayor, 24 (Coloreros 3), 28013 Madrid Comunidad de Madrid<br>         Distance: 299 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416473, -3.707112         </div>`)[0];
+                popup_e2a059061f9c73d514963704740373fa.setContent(html_c6f672d6950ccd714f89384f05f83354);
+            
+        
+
+        marker_8f4fae31454959beaab7a90303177951.bindPopup(popup_e2a059061f9c73d514963704740373fa)
+        ;
+
+        
+    
+    
+                marker_8f4fae31454959beaab7a90303177951.setIcon(icon_0315829b78b847869d723aff9356d185);
+            
+    
+            var marker_89fb4542d7a330c14ec46476884aa7d6 = L.marker(
+                [40.419129, -3.704615],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_e0f261cd26dd80d300b03d5bcef425aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11f39b7f8ad8cbdfdc0858bd375a006f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_712d7326d613685fcb17e4d90a71e304 = $(`<div id="html_712d7326d613685fcb17e4d90a71e304" style="width: 100.0%; height: 100.0%;">         <b>Valdemeso</b><br>         Address: Mesonero Romanos, 8, 28013 Madrid Comunidad de Madrid<br>         Distance: 301 meters<br>         Hours: Hours not available<br>         Coordinates: 40.419129, -3.704615         </div>`)[0];
+                popup_11f39b7f8ad8cbdfdc0858bd375a006f.setContent(html_712d7326d613685fcb17e4d90a71e304);
+            
+        
+
+        marker_89fb4542d7a330c14ec46476884aa7d6.bindPopup(popup_11f39b7f8ad8cbdfdc0858bd375a006f)
+        ;
+
+        
+    
+    
+                marker_89fb4542d7a330c14ec46476884aa7d6.setIcon(icon_e0f261cd26dd80d300b03d5bcef425aa);
+            
+    
+            var marker_d988866e5401115a31db74977ca7060c = L.marker(
+                [40.417564, -3.706882],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_9caea0b662d4cbaee9f73496bc04406b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8cbd2e44487b14ebb5aba4a2d6ca1338 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00ad84c3501976a4fc8a04a4a783c0f7 = $(`<div id="html_00ad84c3501976a4fc8a04a4a783c0f7" style="width: 100.0%; height: 100.0%;">         <b>Chocolateria 1902</b><br>         Address: Calle San Martín, 2, 28013 Madrid Comunidad de Madrid<br>         Distance: 307 meters<br>         Hours: Hours not available<br>         Coordinates: 40.417564, -3.706882         </div>`)[0];
+                popup_8cbd2e44487b14ebb5aba4a2d6ca1338.setContent(html_00ad84c3501976a4fc8a04a4a783c0f7);
+            
+        
+
+        marker_d988866e5401115a31db74977ca7060c.bindPopup(popup_8cbd2e44487b14ebb5aba4a2d6ca1338)
+        ;
+
+        
+    
+    
+                marker_d988866e5401115a31db74977ca7060c.setIcon(icon_9caea0b662d4cbaee9f73496bc04406b);
+            
+    
+            var marker_989fd082265329cf6b68fd46f2ff7132 = L.marker(
+                [40.413887, -3.703073],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_e1ef5e2ab84419e2caf3e364328ea361 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0c208be0111dd67ddde41d6dc477aec = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8cb249df7eb3d36b2e45e577b28e361 = $(`<div id="html_b8cb249df7eb3d36b2e45e577b28e361" style="width: 100.0%; height: 100.0%;">         <b>La Rollerie</b><br>         Address: Calle Atocha, 20, 28012 Madrid Comunidad de Madrid<br>         Distance: 322 meters<br>         Hours: Hours not available<br>         Coordinates: 40.413887, -3.703073         </div>`)[0];
+                popup_c0c208be0111dd67ddde41d6dc477aec.setContent(html_b8cb249df7eb3d36b2e45e577b28e361);
+            
+        
+
+        marker_989fd082265329cf6b68fd46f2ff7132.bindPopup(popup_c0c208be0111dd67ddde41d6dc477aec)
+        ;
+
+        
+    
+    
+                marker_989fd082265329cf6b68fd46f2ff7132.setIcon(icon_e1ef5e2ab84419e2caf3e364328ea361);
+            
+    
+            var marker_f60ececf53d8f5a3d902e9533dd00cda = L.marker(
+                [40.416509, -3.699594],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_b8ac2915fc17efadc6388afcff739855 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae7985cad4d6d24cf907412d420f9b9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7161a3e83fc398ea7cae1d0755cccd33 = $(`<div id="html_7161a3e83fc398ea7cae1d0755cccd33" style="width: 100.0%; height: 100.0%;">         <b>La Rollerie</b><br>         Address: Carrera San Jerónimo, 26, 28014 Madrid Comunidad de Madrid<br>         Distance: 338 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416509, -3.699594         </div>`)[0];
+                popup_ae7985cad4d6d24cf907412d420f9b9e.setContent(html_7161a3e83fc398ea7cae1d0755cccd33);
+            
+        
+
+        marker_f60ececf53d8f5a3d902e9533dd00cda.bindPopup(popup_ae7985cad4d6d24cf907412d420f9b9e)
+        ;
+
+        
+    
+    
+                marker_f60ececf53d8f5a3d902e9533dd00cda.setIcon(icon_b8ac2915fc17efadc6388afcff739855);
+            
+    
+            var marker_cc059aea687642b36ff98e98da5d3e91 = L.marker(
+                [40.419342, -3.70598],
+                {
+}
+            ).addTo(map_82f792f94f0007c7e0c755243a1bb065);
+        
+    
+            var icon_dcfc501cb105dabffcd708919e474c61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20fed5c27324b45277e5794014245f4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ea6d4e97575af864a910dc42635725b5 = $(`<div id="html_ea6d4e97575af864a910dc42635725b5" style="width: 100.0%; height: 100.0%;">         <b>La Central de Callao</b><br>         Address: Postigo de San Martín, 8, 28013 Madrid Comunidad de Madrid<br>         Distance: 361 meters<br>         Hours: Hours not available<br>         Coordinates: 40.419342, -3.70598         </div>`)[0];
+                popup_20fed5c27324b45277e5794014245f4b.setContent(html_ea6d4e97575af864a910dc42635725b5);
+            
+        
+
+        marker_cc059aea687642b36ff98e98da5d3e91.bindPopup(popup_20fed5c27324b45277e5794014245f4b)
+        ;
+
+        
+    
+    
+                marker_cc059aea687642b36ff98e98da5d3e91.setIcon(icon_dcfc501cb105dabffcd708919e474c61);
+            
+</script>
+</html>

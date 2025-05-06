@@ -1,0 +1,152 @@
+[
+  {
+    "name": "El Riojano",
+    "coordinates": {
+      "latitude": 40.416526,
+      "longitude": -3.705941
+    },
+    "address": "Calle Mayor, 10, 28013 Madrid Comunidad de Madrid",
+    "distance": 198,
+    "categories": [
+      "Bakery",
+      "Dessert Shop",
+      "Restaurant"
+    ],
+    "hours": null,
+    "fsq_id": "4b929438f964a520440634e3"
+  },
+  {
+    "name": "Mimi's Creperia",
+    "coordinates": {
+      "latitude": 40.415673,
+      "longitude": -3.706148
+    },
+    "address": "Calle Postas, 17, 28012 Madrid Comunidad de Madrid",
+    "distance": 248,
+    "categories": [
+      "Restaurant"
+    ],
+    "hours": null,
+    "fsq_id": "4b682e30f964a520a36a2be3"
+  },
+  {
+    "name": "El Jard\u00edn de Salvador Bachiller",
+    "coordinates": {
+      "latitude": 40.419109,
+      "longitude": -3.702326
+    },
+    "address": "Calle Montera, 37, 28013 Madrid Comunidad de Madrid",
+    "distance": 287,
+    "categories": [
+      "Caf\u00e9"
+    ],
+    "hours": null,
+    "fsq_id": "53ce9a52498e0eaa7ccfb45f"
+  },
+  {
+    "name": "Chocolater\u00eda San Gin\u00e9s",
+    "coordinates": {
+      "latitude": 40.416821,
+      "longitude": -3.706735
+    },
+    "address": "Pasadizo de San Gin\u00e9s, 5 (C. Arenal), 28013 Madrid Comunidad de Madrid",
+    "distance": 295,
+    "categories": [
+      "Caf\u00e9",
+      "Coffee Shop",
+      "Deli"
+    ],
+    "hours": null,
+    "fsq_id": "4adcda35f964a5207d3b21e3"
+  },
+  {
+    "name": "La Rollerie",
+    "coordinates": {
+      "latitude": 40.416473,
+      "longitude": -3.707112
+    },
+    "address": "Calle Mayor, 24 (Coloreros 3), 28013 Madrid Comunidad de Madrid",
+    "distance": 299,
+    "categories": [
+      "Breakfast Spot"
+    ],
+    "hours": null,
+    "fsq_id": "5564344c498ead26929c9919"
+  },
+  {
+    "name": "Valdemeso",
+    "coordinates": {
+      "latitude": 40.419129,
+      "longitude": -3.704615
+    },
+    "address": "Mesonero Romanos, 8, 28013 Madrid Comunidad de Madrid",
+    "distance": 301,
+    "categories": [
+      "Restaurant",
+      "Caf\u00e9"
+    ],
+    "hours": null,
+    "fsq_id": "4bb23a3742959c74e08b202c"
+  },
+  {
+    "name": "Chocolateria 1902",
+    "coordinates": {
+      "latitude": 40.417564,
+      "longitude": -3.706882
+    },
+    "address": "Calle San Mart\u00edn, 2, 28013 Madrid Comunidad de Madrid",
+    "distance": 307,
+    "categories": [
+      "Coffee Shop",
+      "Restaurant"
+    ],
+    "hours": null,
+    "fsq_id": "514d73fae4b0f2f188ab8d1c"
+  },
+  {
+    "name": "La Rollerie",
+    "coordinates": {
+      "latitude": 40.413887,
+      "longitude": -3.703073
+    },
+    "address": "Calle Atocha, 20, 28012 Madrid Comunidad de Madrid",
+    "distance": 322,
+    "categories": [
+      "Caf\u00e9",
+      "Coffee Shop",
+      "Restaurant"
+    ],
+    "hours": null,
+    "fsq_id": "51d5c142498eb4644f053d0b"
+  },
+  {
+    "name": "La Rollerie",
+    "coordinates": {
+      "latitude": 40.416509,
+      "longitude": -3.699594
+    },
+    "address": "Carrera San Jer\u00f3nimo, 26, 28014 Madrid Comunidad de Madrid",
+    "distance": 338,
+    "categories": [
+      "Coffee Shop",
+      "Dessert Shop",
+      "Restaurant"
+    ],
+    "hours": null,
+    "fsq_id": "58e25c5744587f5a0851ffac"
+  },
+  {
+    "name": "La Central de Callao",
+    "coordinates": {
+      "latitude": 40.419342,
+      "longitude": -3.70598
+    },
+    "address": "Postigo de San Mart\u00edn, 8, 28013 Madrid Comunidad de Madrid",
+    "distance": 361,
+    "categories": [
+      "Bookstore"
+    ],
+    "hours": null,
+    "fsq_id": "50340653e0e24113d87d7a88"
+  }
+]

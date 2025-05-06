@@ -1,0 +1,626 @@
+{
+  "results": [
+    {
+      "fsq_id": "4b929438f964a520440634e3",
+      "categories": [
+        {
+          "id": 13002,
+          "name": "Bakery",
+          "short_name": "Bakery",
+          "plural_name": "Bakeries",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13040,
+          "name": "Dessert Shop",
+          "short_name": "Desserts",
+          "plural_name": "Dessert Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/dessert_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 198,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.416398,
+          "longitude": -3.705925
+        },
+        "main": {
+          "latitude": 40.416526,
+          "longitude": -3.705941
+        },
+        "roof": {
+          "latitude": 40.416526,
+          "longitude": -3.705941
+        }
+      },
+      "link": "/v3/places/4b929438f964a520440634e3",
+      "location": {
+        "address": "Calle Mayor, 10",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "formatted_address": "Calle Mayor, 10, 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "El Riojano",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "4b682e30f964a520a36a2be3",
+      "categories": [
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 248,
+      "geocodes": {
+        "main": {
+          "latitude": 40.415673,
+          "longitude": -3.706148
+        },
+        "roof": {
+          "latitude": 40.415673,
+          "longitude": -3.706148
+        }
+      },
+      "link": "/v3/places/4b682e30f964a520a36a2be3",
+      "location": {
+        "address": "Calle Postas, 17",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "formatted_address": "Calle Postas, 17, 28012 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28012",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "Mimi's Creperia",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "53ce9a52498e0eaa7ccfb45f",
+      "categories": [
+        {
+          "id": 13034,
+          "name": "Caf\u00e9",
+          "short_name": "Caf\u00e9",
+          "plural_name": "Caf\u00e9s",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "VeryLikelyOpen",
+      "distance": 287,
+      "geocodes": {
+        "main": {
+          "latitude": 40.419109,
+          "longitude": -3.702326
+        },
+        "roof": {
+          "latitude": 40.419109,
+          "longitude": -3.702326
+        }
+      },
+      "link": "/v3/places/53ce9a52498e0eaa7ccfb45f",
+      "location": {
+        "address": "Calle Montera, 37",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "",
+        "formatted_address": "Calle Montera, 37, 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "El Jard\u00edn de Salvador Bachiller",
+      "related_places": {
+        "parent": {
+          "fsq_id": "5341149f498eafdebcf8a78e",
+          "categories": [
+            {
+              "id": 13035,
+              "name": "Coffee Shop",
+              "short_name": "Coffee Shop",
+              "plural_name": "Coffee Shops",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                "suffix": ".png"
+              }
+            },
+            {
+              "id": 13057,
+              "name": "Gastropub",
+              "short_name": "Gastropub",
+              "plural_name": "Gastropubs",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/gastropub_",
+                "suffix": ".png"
+              }
+            },
+            {
+              "id": 13347,
+              "name": "Tapas Restaurant",
+              "short_name": "Tapas",
+              "plural_name": "Tapas Restaurants",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/tapas_",
+                "suffix": ".png"
+              }
+            }
+          ],
+          "name": "Salvador Bachiller"
+        }
+      },
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "4adcda35f964a5207d3b21e3",
+      "categories": [
+        {
+          "id": 13034,
+          "name": "Caf\u00e9",
+          "short_name": "Caf\u00e9",
+          "plural_name": "Caf\u00e9s",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13039,
+          "name": "Deli",
+          "short_name": "Deli",
+          "plural_name": "Delis",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 295,
+      "geocodes": {
+        "main": {
+          "latitude": 40.416821,
+          "longitude": -3.706735
+        },
+        "roof": {
+          "latitude": 40.416821,
+          "longitude": -3.706735
+        }
+      },
+      "link": "/v3/places/4adcda35f964a5207d3b21e3",
+      "location": {
+        "address": "Pasadizo de San Gin\u00e9s, 5",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "C. Arenal",
+        "formatted_address": "Pasadizo de San Gin\u00e9s, 5 (C. Arenal), 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "Chocolater\u00eda San Gin\u00e9s",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "5564344c498ead26929c9919",
+      "categories": [
+        {
+          "id": 13028,
+          "name": "Breakfast Spot",
+          "short_name": "Breakfast",
+          "plural_name": "Breakfast Spots",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/breakfast_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "VeryLikelyOpen",
+      "distance": 299,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.416252,
+          "longitude": -3.707084
+        },
+        "main": {
+          "latitude": 40.416473,
+          "longitude": -3.707112
+        },
+        "roof": {
+          "latitude": 40.416473,
+          "longitude": -3.707112
+        }
+      },
+      "link": "/v3/places/5564344c498ead26929c9919",
+      "location": {
+        "address": "Calle Mayor, 24",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "Coloreros 3",
+        "formatted_address": "Calle Mayor, 24 (Coloreros 3), 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "La Rollerie",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "4bb23a3742959c74e08b202c",
+      "categories": [
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13034,
+          "name": "Caf\u00e9",
+          "short_name": "Caf\u00e9",
+          "plural_name": "Caf\u00e9s",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 301,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.419169,
+          "longitude": -3.704655
+        },
+        "main": {
+          "latitude": 40.419129,
+          "longitude": -3.704615
+        },
+        "roof": {
+          "latitude": 40.419129,
+          "longitude": -3.704615
+        }
+      },
+      "link": "/v3/places/4bb23a3742959c74e08b202c",
+      "location": {
+        "address": "Mesonero Romanos, 8",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "",
+        "formatted_address": "Mesonero Romanos, 8, 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "Valdemeso",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "514d73fae4b0f2f188ab8d1c",
+      "categories": [
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 307,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.417641,
+          "longitude": -3.70699
+        },
+        "main": {
+          "latitude": 40.417564,
+          "longitude": -3.706882
+        },
+        "roof": {
+          "latitude": 40.417564,
+          "longitude": -3.706882
+        }
+      },
+      "link": "/v3/places/514d73fae4b0f2f188ab8d1c",
+      "location": {
+        "address": "Calle San Mart\u00edn, 2",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "",
+        "formatted_address": "Calle San Mart\u00edn, 2, 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "Chocolateria 1902",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "51d5c142498eb4644f053d0b",
+      "categories": [
+        {
+          "id": 13034,
+          "name": "Caf\u00e9",
+          "short_name": "Caf\u00e9",
+          "plural_name": "Caf\u00e9s",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 322,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.413996,
+          "longitude": -3.703034
+        },
+        "main": {
+          "latitude": 40.413887,
+          "longitude": -3.703073
+        },
+        "roof": {
+          "latitude": 40.413887,
+          "longitude": -3.703073
+        }
+      },
+      "link": "/v3/places/51d5c142498eb4644f053d0b",
+      "location": {
+        "address": "Calle Atocha, 20",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "",
+        "formatted_address": "Calle Atocha, 20, 28012 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28012",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "La Rollerie",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "58e25c5744587f5a0851ffac",
+      "categories": [
+        {
+          "id": 13035,
+          "name": "Coffee Shop",
+          "short_name": "Coffee Shop",
+          "plural_name": "Coffee Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13040,
+          "name": "Dessert Shop",
+          "short_name": "Desserts",
+          "plural_name": "Dessert Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/dessert_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "VeryLikelyOpen",
+      "distance": 338,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.416585,
+          "longitude": -3.699592
+        },
+        "main": {
+          "latitude": 40.416509,
+          "longitude": -3.699594
+        },
+        "roof": {
+          "latitude": 40.416509,
+          "longitude": -3.699594
+        }
+      },
+      "link": "/v3/places/58e25c5744587f5a0851ffac",
+      "location": {
+        "address": "Carrera San Jer\u00f3nimo, 26",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "cross_street": "",
+        "formatted_address": "Carrera San Jer\u00f3nimo, 26, 28014 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28014",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "La Rollerie",
+      "related_places": {},
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "50340653e0e24113d87d7a88",
+      "categories": [
+        {
+          "id": 17018,
+          "name": "Bookstore",
+          "short_name": "Bookstore",
+          "plural_name": "Bookstores",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/bookstore_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 361,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.419366,
+          "longitude": -3.706031
+        },
+        "main": {
+          "latitude": 40.419342,
+          "longitude": -3.70598
+        },
+        "roof": {
+          "latitude": 40.419342,
+          "longitude": -3.70598
+        }
+      },
+      "link": "/v3/places/50340653e0e24113d87d7a88",
+      "location": {
+        "address": "Postigo de San Mart\u00edn, 8",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "formatted_address": "Postigo de San Mart\u00edn, 8, 28013 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28013",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "La Central de Callao",
+      "related_places": {
+        "children": [
+          {
+            "fsq_id": "52c87781498eaad422480225",
+            "categories": [
+              {
+                "id": 13065,
+                "name": "Restaurant",
+                "short_name": "Restaurant",
+                "plural_name": "Restaurants",
+                "icon": {
+                  "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+                  "suffix": ".png"
+                }
+              },
+              {
+                "id": 13034,
+                "name": "Caf\u00e9",
+                "short_name": "Caf\u00e9",
+                "plural_name": "Caf\u00e9s",
+                "icon": {
+                  "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                  "suffix": ".png"
+                }
+              }
+            ],
+            "name": "El Bistr\u00f3 de la Central"
+          }
+        ]
+      },
+      "timezone": "Europe/Madrid"
+    }
+  ],
+  "context": {
+    "geo_bounds": {
+      "circle": {
+        "center": {
+          "latitude": 40.4167047,
+          "longitude": -3.7035825
+        },
+        "radius": 600
+      }
+    }
+  }
+}

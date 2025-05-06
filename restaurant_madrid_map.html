@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f25c0863350cf270c6bcc592f32feb8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f25c0863350cf270c6bcc592f32feb8c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f25c0863350cf270c6bcc592f32feb8c = L.map(
+                "map_f25c0863350cf270c6bcc592f32feb8c",
+                {
+                    center: [40.4167047, -3.7035825],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3f8b398628f3b8348591c80cf02a699c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3f8b398628f3b8348591c80cf02a699c.addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var marker_552852f04ea23cdde85276f590a9ddfb = L.marker(
+                [40.4167047, -3.7035825],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_b107760e4cc2d2af34fb6f59ce61b7dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a2b082de9a8e4235898de56ab6f4fc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcbea39714c8c3fc603ddb2912c3fc7d = $(`<div id="html_fcbea39714c8c3fc603ddb2912c3fc7d" style="width: 100.0%; height: 100.0%;">Madrid Center</div>`)[0];
+                popup_2a2b082de9a8e4235898de56ab6f4fc1.setContent(html_fcbea39714c8c3fc603ddb2912c3fc7d);
+            
+        
+
+        marker_552852f04ea23cdde85276f590a9ddfb.bindPopup(popup_2a2b082de9a8e4235898de56ab6f4fc1)
+        ;
+
+        
+    
+    
+                marker_552852f04ea23cdde85276f590a9ddfb.setIcon(icon_b107760e4cc2d2af34fb6f59ce61b7dd);
+            
+    
+            var marker_2948666d972cef507487ec324040f261 = L.marker(
+                [40.417205, -3.704507],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_4f56c6712ad02e02b37a039537e25eb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba7ef91d242dfa2036c606938ba515a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab38beb0cd5ca941731beee6e7a1f104 = $(`<div id="html_ab38beb0cd5ca941731beee6e7a1f104" style="width: 100.0%; height: 100.0%;">         <b>Casa Labra</b><br>         Address: Calle Tetuán, 12, 28013 Madrid Comunidad de Madrid<br>         Distance: 93 meters<br>         Hours: Hours not available<br>         Coordinates: 40.417205, -3.704507         </div>`)[0];
+                popup_ba7ef91d242dfa2036c606938ba515a5.setContent(html_ab38beb0cd5ca941731beee6e7a1f104);
+            
+        
+
+        marker_2948666d972cef507487ec324040f261.bindPopup(popup_ba7ef91d242dfa2036c606938ba515a5)
+        ;
+
+        
+    
+    
+                marker_2948666d972cef507487ec324040f261.setIcon(icon_4f56c6712ad02e02b37a039537e25eb2);
+            
+    
+            var marker_24baf5b653915d97f1cb4701107f6d56 = L.marker(
+                [40.415846, -3.702936],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_b85bcbed8deb7ed1a403b0e1b4036a46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53d6bb2401cc117ce86ebde33d9ed286 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4ce1de23f9521b33144fe43d01d9c6d = $(`<div id="html_c4ce1de23f9521b33144fe43d01d9c6d" style="width: 100.0%; height: 100.0%;">         <b>Rosi la Loca</b><br>         Address: Calle de Cádiz, 4, 28012 Madrid Comunidad de Madrid<br>         Distance: 111 meters<br>         Hours: Hours not available<br>         Coordinates: 40.415846, -3.702936         </div>`)[0];
+                popup_53d6bb2401cc117ce86ebde33d9ed286.setContent(html_c4ce1de23f9521b33144fe43d01d9c6d);
+            
+        
+
+        marker_24baf5b653915d97f1cb4701107f6d56.bindPopup(popup_53d6bb2401cc117ce86ebde33d9ed286)
+        ;
+
+        
+    
+    
+                marker_24baf5b653915d97f1cb4701107f6d56.setIcon(icon_b85bcbed8deb7ed1a403b0e1b4036a46);
+            
+    
+            var marker_325f6fc2cc13d085cab2d72f6e0d6b63 = L.marker(
+                [40.416282, -3.70237],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_72e2e301aa2c7b7bdeefd1755ec90992 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba9ddfb4fcdc29d35242579a6a755add = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1ceccb59ed95eaccb2484f5dec44ec0f = $(`<div id="html_1ceccb59ed95eaccb2484f5dec44ec0f" style="width: 100.0%; height: 100.0%;">         <b>Serafina Cocina Bar</b><br>         Address: Calle Espoz y Mina, 4, 28012 Madrid Centro Comunidad de Madrid<br>         Distance: 113 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416282, -3.70237         </div>`)[0];
+                popup_ba9ddfb4fcdc29d35242579a6a755add.setContent(html_1ceccb59ed95eaccb2484f5dec44ec0f);
+            
+        
+
+        marker_325f6fc2cc13d085cab2d72f6e0d6b63.bindPopup(popup_ba9ddfb4fcdc29d35242579a6a755add)
+        ;
+
+        
+    
+    
+                marker_325f6fc2cc13d085cab2d72f6e0d6b63.setIcon(icon_72e2e301aa2c7b7bdeefd1755ec90992);
+            
+    
+            var marker_cdd833b9e9c12a43be175d07ce9927db = L.marker(
+                [40.41660164665356, -3.701563775539398],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_5e3b98a5cc1b0c76bd6d37503e5356fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f37d9957333b715d4930890623ce274 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8686b8bc2bca25935a9b8b0a98f2a48a = $(`<div id="html_8686b8bc2bca25935a9b8b0a98f2a48a" style="width: 100.0%; height: 100.0%;">         <b>Museo del Jamón</b><br>         Address: Carrera de San Jerónimo, 6, 28014 Madrid Comunidad de Madrid<br>         Distance: 171 meters<br>         Hours: Hours not available<br>         Coordinates: 40.41660164665356, -3.701563775539398         </div>`)[0];
+                popup_8f37d9957333b715d4930890623ce274.setContent(html_8686b8bc2bca25935a9b8b0a98f2a48a);
+            
+        
+
+        marker_cdd833b9e9c12a43be175d07ce9927db.bindPopup(popup_8f37d9957333b715d4930890623ce274)
+        ;
+
+        
+    
+    
+                marker_cdd833b9e9c12a43be175d07ce9927db.setIcon(icon_5e3b98a5cc1b0c76bd6d37503e5356fb);
+            
+    
+            var marker_9f0dd9182a9197046b3ec5d5352c541b = L.marker(
+                [40.418173, -3.703104],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_f61430b631e185601deab28a7842e2f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_719bf10441b76a3bd384d53e2669092b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f626b5f84cde7064c968d88aa328313 = $(`<div id="html_9f626b5f84cde7064c968d88aa328313" style="width: 100.0%; height: 100.0%;">         <b>El Gaucho</b><br>         Address: Calle Tetuán, 34, 28013 Madrid Comunidad de Madrid<br>         Distance: 178 meters<br>         Hours: Hours not available<br>         Coordinates: 40.418173, -3.703104         </div>`)[0];
+                popup_719bf10441b76a3bd384d53e2669092b.setContent(html_9f626b5f84cde7064c968d88aa328313);
+            
+        
+
+        marker_9f0dd9182a9197046b3ec5d5352c541b.bindPopup(popup_719bf10441b76a3bd384d53e2669092b)
+        ;
+
+        
+    
+    
+                marker_9f0dd9182a9197046b3ec5d5352c541b.setIcon(icon_f61430b631e185601deab28a7842e2f5);
+            
+    
+            var marker_356506926159aa3eb2d4cfae5a70560d = L.marker(
+                [40.41631983610847, -3.7056621909141536],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_99bdd4b0c99b79bb32ffa80683b3679e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed40d6c7be9408f0d87c0b66b478155d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2baba33a8c3cdaab11fcdf2d3cd672b3 = $(`<div id="html_2baba33a8c3cdaab11fcdf2d3cd672b3" style="width: 100.0%; height: 100.0%;">         <b>Museo del Jamón</b><br>         Address: Calle Mayor, 7, 28013 Madrid Comunidad de Madrid<br>         Distance: 181 meters<br>         Hours: Hours not available<br>         Coordinates: 40.41631983610847, -3.7056621909141536         </div>`)[0];
+                popup_ed40d6c7be9408f0d87c0b66b478155d.setContent(html_2baba33a8c3cdaab11fcdf2d3cd672b3);
+            
+        
+
+        marker_356506926159aa3eb2d4cfae5a70560d.bindPopup(popup_ed40d6c7be9408f0d87c0b66b478155d)
+        ;
+
+        
+    
+    
+                marker_356506926159aa3eb2d4cfae5a70560d.setIcon(icon_99bdd4b0c99b79bb32ffa80683b3679e);
+            
+    
+            var marker_6129a55abec405f518603691d972ad10 = L.marker(
+                [40.414614, -3.702919],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_f48f97d0c969a2e613c857811512d990 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0d980fa28e0352fd81cb00bafe52d51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_abd555657095000d56ed94c2edf84ae3 = $(`<div id="html_abd555657095000d56ed94c2edf84ae3" style="width: 100.0%; height: 100.0%;">         <b>Matador</b><br>         Address: Calle de la Cruz, 39, 28012 Madrid Comunidad de Madrid<br>         Distance: 236 meters<br>         Hours: Hours not available<br>         Coordinates: 40.414614, -3.702919         </div>`)[0];
+                popup_b0d980fa28e0352fd81cb00bafe52d51.setContent(html_abd555657095000d56ed94c2edf84ae3);
+            
+        
+
+        marker_6129a55abec405f518603691d972ad10.bindPopup(popup_b0d980fa28e0352fd81cb00bafe52d51)
+        ;
+
+        
+    
+    
+                marker_6129a55abec405f518603691d972ad10.setIcon(icon_f48f97d0c969a2e613c857811512d990);
+            
+    
+            var marker_4482311797518a79150b5d389ae9c24c = L.marker(
+                [40.418958, -3.703768],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_41b590059e10c0b6753d8c4d4967ff41 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92850db5f2922ae916895974cd23d7d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97614874b51f03421b5d26d85ca6f6c5 = $(`<div id="html_97614874b51f03421b5d26d85ca6f6c5" style="width: 100.0%; height: 100.0%;">         <b>Takos</b><br>         Address: Abada, 2, 28013 Madrid Comunidad de Madrid<br>         Distance: 248 meters<br>         Hours: Hours not available<br>         Coordinates: 40.418958, -3.703768         </div>`)[0];
+                popup_92850db5f2922ae916895974cd23d7d9.setContent(html_97614874b51f03421b5d26d85ca6f6c5);
+            
+        
+
+        marker_4482311797518a79150b5d389ae9c24c.bindPopup(popup_92850db5f2922ae916895974cd23d7d9)
+        ;
+
+        
+    
+    
+                marker_4482311797518a79150b5d389ae9c24c.setIcon(icon_41b590059e10c0b6753d8c4d4967ff41);
+            
+    
+            var marker_94454bd2907fa0218109a69499609921 = L.marker(
+                [40.416844, -3.700525],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_adb1ca4030b44587e21099a37452b73e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa5f5e57779993cbe767921fbd18a5cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_afd859c5cfb43919f91e5c364802a436 = $(`<div id="html_afd859c5cfb43919f91e5c364802a436" style="width: 100.0%; height: 100.0%;">         <b>Cartier Galería Canalejas</b><br>         Address: Plaza Canalejas, 1, 28014 Madrid Comunidad de Madrid<br>         Distance: 248 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416844, -3.700525         </div>`)[0];
+                popup_aa5f5e57779993cbe767921fbd18a5cb.setContent(html_afd859c5cfb43919f91e5c364802a436);
+            
+        
+
+        marker_94454bd2907fa0218109a69499609921.bindPopup(popup_aa5f5e57779993cbe767921fbd18a5cb)
+        ;
+
+        
+    
+    
+                marker_94454bd2907fa0218109a69499609921.setIcon(icon_adb1ca4030b44587e21099a37452b73e);
+            
+    
+            var marker_1012999db9dc3befacfa3388b7a3cb8b = L.marker(
+                [40.415673, -3.706148],
+                {
+}
+            ).addTo(map_f25c0863350cf270c6bcc592f32feb8c);
+        
+    
+            var icon_a964bb556904395757657b3e038386ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0e87cd3114d847b640c9db1d8bee34c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fcf0bbe588a2245ce096fc55e07ff8ec = $(`<div id="html_fcf0bbe588a2245ce096fc55e07ff8ec" style="width: 100.0%; height: 100.0%;">         <b>Mimi's Creperia</b><br>         Address: Calle Postas, 17, 28012 Madrid Comunidad de Madrid<br>         Distance: 248 meters<br>         Hours: Hours not available<br>         Coordinates: 40.415673, -3.706148         </div>`)[0];
+                popup_f0e87cd3114d847b640c9db1d8bee34c.setContent(html_fcf0bbe588a2245ce096fc55e07ff8ec);
+            
+        
+
+        marker_1012999db9dc3befacfa3388b7a3cb8b.bindPopup(popup_f0e87cd3114d847b640c9db1d8bee34c)
+        ;
+
+        
+    
+    
+                marker_1012999db9dc3befacfa3388b7a3cb8b.setIcon(icon_a964bb556904395757657b3e038386ab);
+            
+</script>
+</html>

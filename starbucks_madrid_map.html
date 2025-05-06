@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_044d896c93c714fd9285ebd147efebd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_044d896c93c714fd9285ebd147efebd7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_044d896c93c714fd9285ebd147efebd7 = L.map(
+                "map_044d896c93c714fd9285ebd147efebd7",
+                {
+                    center: [40.4167047, -3.7035825],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7eea7fd4345d20a6b35c6e02f7c45333 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7eea7fd4345d20a6b35c6e02f7c45333.addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var marker_53e463a1ac79347012c3bcf07f947130 = L.marker(
+                [40.4167047, -3.7035825],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_304845b16573db191c8a9202821a9c95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8f92aab0839cf8b9d4ea6256c92192d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8421f82d97681a8d6655b417831aff20 = $(`<div id="html_8421f82d97681a8d6655b417831aff20" style="width: 100.0%; height: 100.0%;">Madrid Center</div>`)[0];
+                popup_e8f92aab0839cf8b9d4ea6256c92192d.setContent(html_8421f82d97681a8d6655b417831aff20);
+            
+        
+
+        marker_53e463a1ac79347012c3bcf07f947130.bindPopup(popup_e8f92aab0839cf8b9d4ea6256c92192d)
+        ;
+
+        
+    
+    
+                marker_53e463a1ac79347012c3bcf07f947130.setIcon(icon_304845b16573db191c8a9202821a9c95);
+            
+    
+            var marker_3376d428c7f9a906b5888bb74901296d = L.marker(
+                [40.417517, -3.702768],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_1b63cbaf8d2941252c93de4d509ea195 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d294c5b9d3d22ea434dda6e8d2589095 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9d1718ccfaa4dc0128d91574124f67e0 = $(`<div id="html_9d1718ccfaa4dc0128d91574124f67e0" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle de la Montera, 8, 28013 Madrid Comunidad de Madrid<br>     Distance: 113 meters<br>     Hours: Hours not available<br>     Coordinates: 40.417517, -3.702768     </div>`)[0];
+                popup_d294c5b9d3d22ea434dda6e8d2589095.setContent(html_9d1718ccfaa4dc0128d91574124f67e0);
+            
+        
+
+        marker_3376d428c7f9a906b5888bb74901296d.bindPopup(popup_d294c5b9d3d22ea434dda6e8d2589095)
+        ;
+
+        
+    
+    
+                marker_3376d428c7f9a906b5888bb74901296d.setIcon(icon_1b63cbaf8d2941252c93de4d509ea195);
+            
+    
+            var marker_1de0c7c770ae3273ab8133d3970db806 = L.marker(
+                [40.41747, -3.704701],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_60c9316af13735cffc62536cdc9b0271 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52a6fef54f2ea609575b9cabf3adf3cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_482a88769378d5784c623ef6c6b81cba = $(`<div id="html_482a88769378d5784c623ef6c6b81cba" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle de Preciados, 3 (C. Preciados, 3), 28013 Madrid Comunidad de Madrid<br>     Distance: 126 meters<br>     Hours: Hours not available<br>     Coordinates: 40.41747, -3.704701     </div>`)[0];
+                popup_52a6fef54f2ea609575b9cabf3adf3cc.setContent(html_482a88769378d5784c623ef6c6b81cba);
+            
+        
+
+        marker_1de0c7c770ae3273ab8133d3970db806.bindPopup(popup_52a6fef54f2ea609575b9cabf3adf3cc)
+        ;
+
+        
+    
+    
+                marker_1de0c7c770ae3273ab8133d3970db806.setIcon(icon_60c9316af13735cffc62536cdc9b0271);
+            
+    
+            var marker_7013786fd9798d8e0f027c679b7f6257 = L.marker(
+                [40.417206, -3.706114],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_175d9a3fa1aaf93462dc9fcf623af2bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12d5777e5f8a1a23e953262744777b72 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4db016497996de263241619a06148a17 = $(`<div id="html_4db016497996de263241619a06148a17" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Arenal, 14, 28013 Madrid Comunidad de Madrid<br>     Distance: 221 meters<br>     Hours: Hours not available<br>     Coordinates: 40.417206, -3.706114     </div>`)[0];
+                popup_12d5777e5f8a1a23e953262744777b72.setContent(html_4db016497996de263241619a06148a17);
+            
+        
+
+        marker_7013786fd9798d8e0f027c679b7f6257.bindPopup(popup_12d5777e5f8a1a23e953262744777b72)
+        ;
+
+        
+    
+    
+                marker_7013786fd9798d8e0f027c679b7f6257.setIcon(icon_175d9a3fa1aaf93462dc9fcf623af2bf);
+            
+    
+            var marker_c301d7fdb6e72e838424dc5a47860985 = L.marker(
+                [40.419318, -3.701703],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_5f196ed1b9f7cace5ed1fd94d4ac5532 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c58a5bd1c69e03e713290bb225b9bd2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b6de75df7725ce2a94664e186f11fae0 = $(`<div id="html_b6de75df7725ce2a94664e186f11fae0" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle Montera, 38, 28013 Madrid Comunidad de Madrid<br>     Distance: 331 meters<br>     Hours: Hours not available<br>     Coordinates: 40.419318, -3.701703     </div>`)[0];
+                popup_8c58a5bd1c69e03e713290bb225b9bd2.setContent(html_b6de75df7725ce2a94664e186f11fae0);
+            
+        
+
+        marker_c301d7fdb6e72e838424dc5a47860985.bindPopup(popup_8c58a5bd1c69e03e713290bb225b9bd2)
+        ;
+
+        
+    
+    
+                marker_c301d7fdb6e72e838424dc5a47860985.setIcon(icon_5f196ed1b9f7cace5ed1fd94d4ac5532);
+            
+    
+            var marker_a752889ae7a1ff1b4e30f29d1d3e4ac7 = L.marker(
+                [40.417968, -3.699668],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_de91cdc8ef9d2b30fa047f6ae5398d3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cfcccc981f71a4a2eb9b8e65ad777203 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a6f76f852124d753fcc492b1eaf5055d = $(`<div id="html_a6f76f852124d753fcc492b1eaf5055d" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle Orense, 26, Madrid Madrid<br>     Distance: 359 meters<br>     Hours: Hours not available<br>     Coordinates: 40.417968, -3.699668     </div>`)[0];
+                popup_cfcccc981f71a4a2eb9b8e65ad777203.setContent(html_a6f76f852124d753fcc492b1eaf5055d);
+            
+        
+
+        marker_a752889ae7a1ff1b4e30f29d1d3e4ac7.bindPopup(popup_cfcccc981f71a4a2eb9b8e65ad777203)
+        ;
+
+        
+    
+    
+                marker_a752889ae7a1ff1b4e30f29d1d3e4ac7.setIcon(icon_de91cdc8ef9d2b30fa047f6ae5398d3b);
+            
+    
+            var marker_5e01bc5207d04e0ce8d44caef0ca7875 = L.marker(
+                [40.418141, -3.699289],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_9e183d6788178f37ef2fa18533de72b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b27d7fefb56dabcb4a8327298f578e6d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22405cf85508e87ff8177af2db48bc21 = $(`<div id="html_22405cf85508e87ff8177af2db48bc21" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle de Alcalá, 21, 28014 Madrid Comunidad de Madrid<br>     Distance: 385 meters<br>     Hours: Hours not available<br>     Coordinates: 40.418141, -3.699289     </div>`)[0];
+                popup_b27d7fefb56dabcb4a8327298f578e6d.setContent(html_22405cf85508e87ff8177af2db48bc21);
+            
+        
+
+        marker_5e01bc5207d04e0ce8d44caef0ca7875.bindPopup(popup_b27d7fefb56dabcb4a8327298f578e6d)
+        ;
+
+        
+    
+    
+                marker_5e01bc5207d04e0ce8d44caef0ca7875.setIcon(icon_9e183d6788178f37ef2fa18533de72b7);
+            
+    
+            var marker_304fb8ff2853864086b18ee9fe55edf2 = L.marker(
+                [40.420282, -3.702751],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_b79ed1e572eddc08def60411ef9f14ca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d9ca354128f1631688f4a4e6c7e6486 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2a8a5db27e119879a497dd9994b7fa83 = $(`<div id="html_2a8a5db27e119879a497dd9994b7fa83" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle Gran Vía, 30, 28013 Madrid Comunidad de Madrid<br>     Distance: 386 meters<br>     Hours: Hours not available<br>     Coordinates: 40.420282, -3.702751     </div>`)[0];
+                popup_1d9ca354128f1631688f4a4e6c7e6486.setContent(html_2a8a5db27e119879a497dd9994b7fa83);
+            
+        
+
+        marker_304fb8ff2853864086b18ee9fe55edf2.bindPopup(popup_1d9ca354128f1631688f4a4e6c7e6486)
+        ;
+
+        
+    
+    
+                marker_304fb8ff2853864086b18ee9fe55edf2.setIcon(icon_b79ed1e572eddc08def60411ef9f14ca);
+            
+    
+            var marker_ef1279007c63b9e19d2f9cdcde77bbc8 = L.marker(
+                [40.419721, -3.706203],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_f25dca18bf09240c78e0f7f820a5b6a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_477913475d818997fd4f71a788182139 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_207c0e61e946abc59f53e2e29b404d0c = $(`<div id="html_207c0e61e946abc59f53e2e29b404d0c" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Madrid Comunidad de Madrid<br>     Distance: 393 meters<br>     Hours: Hours not available<br>     Coordinates: 40.419721, -3.706203     </div>`)[0];
+                popup_477913475d818997fd4f71a788182139.setContent(html_207c0e61e946abc59f53e2e29b404d0c);
+            
+        
+
+        marker_ef1279007c63b9e19d2f9cdcde77bbc8.bindPopup(popup_477913475d818997fd4f71a788182139)
+        ;
+
+        
+    
+    
+                marker_ef1279007c63b9e19d2f9cdcde77bbc8.setIcon(icon_f25dca18bf09240c78e0f7f820a5b6a7);
+            
+    
+            var marker_a62342db834929ed869169f69f5a9673 = L.marker(
+                [40.415731, -3.708573],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_44d2ea8bde2843be7b6b11316390d0f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4de08161fea8403948d8a22a656a13f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b99cbb92497c9c5d6a69ca54197e9a3c = $(`<div id="html_b99cbb92497c9c5d6a69ca54197e9a3c" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle Ciudad Rodrigo, 5, 28005 Madrid Comunidad de Madrid<br>     Distance: 447 meters<br>     Hours: Hours not available<br>     Coordinates: 40.415731, -3.708573     </div>`)[0];
+                popup_4de08161fea8403948d8a22a656a13f0.setContent(html_b99cbb92497c9c5d6a69ca54197e9a3c);
+            
+        
+
+        marker_a62342db834929ed869169f69f5a9673.bindPopup(popup_4de08161fea8403948d8a22a656a13f0)
+        ;
+
+        
+    
+    
+                marker_a62342db834929ed869169f69f5a9673.setIcon(icon_44d2ea8bde2843be7b6b11316390d0f0);
+            
+    
+            var marker_de81121141ebc148657c460c1af0e76b = L.marker(
+                [40.4206539, -3.7059968],
+                {
+}
+            ).addTo(map_044d896c93c714fd9285ebd147efebd7);
+        
+    
+            var icon_e17e6e30e1af924cc8e11850f2794597 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bb9394b3512bdcf4e13ca3f1c36034d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3fb14be487886c6e4f610ad288f82053 = $(`<div id="html_3fb14be487886c6e4f610ad288f82053" style="width: 100.0%; height: 100.0%;">     <b>Starbucks</b><br>     Address: Calle Gran Vía, 46, 28013 Madrid Comunidad de Madrid<br>     Distance: 484 meters<br>     Hours: Hours not available<br>     Coordinates: 40.4206539, -3.7059968     </div>`)[0];
+                popup_2bb9394b3512bdcf4e13ca3f1c36034d.setContent(html_3fb14be487886c6e4f610ad288f82053);
+            
+        
+
+        marker_de81121141ebc148657c460c1af0e76b.bindPopup(popup_2bb9394b3512bdcf4e13ca3f1c36034d)
+        ;
+
+        
+    
+    
+                marker_de81121141ebc148657c460c1af0e76b.setIcon(icon_e17e6e30e1af924cc8e11850f2794597);
+            
+</script>
+</html>
