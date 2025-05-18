@@ -1,71 +1,6 @@
 {
   "results": [
     {
-      "fsq_id": "4b929438f964a520440634e3",
-      "categories": [
-        {
-          "id": 13002,
-          "name": "Bakery",
-          "short_name": "Bakery",
-          "plural_name": "Bakeries",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13040,
-          "name": "Dessert Shop",
-          "short_name": "Desserts",
-          "plural_name": "Dessert Shops",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/dessert_",
-            "suffix": ".png"
-          }
-        },
-        {
-          "id": 13065,
-          "name": "Restaurant",
-          "short_name": "Restaurant",
-          "plural_name": "Restaurants",
-          "icon": {
-            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
-            "suffix": ".png"
-          }
-        }
-      ],
-      "chains": [],
-      "closed_bucket": "LikelyOpen",
-      "distance": 198,
-      "geocodes": {
-        "drop_off": {
-          "latitude": 40.416398,
-          "longitude": -3.705925
-        },
-        "main": {
-          "latitude": 40.416526,
-          "longitude": -3.705941
-        },
-        "roof": {
-          "latitude": 40.416526,
-          "longitude": -3.705941
-        }
-      },
-      "link": "/v3/places/4b929438f964a520440634e3",
-      "location": {
-        "address": "Calle Mayor, 10",
-        "admin_region": "Comunidad de Madrid",
-        "country": "ES",
-        "formatted_address": "Calle Mayor, 10, 28013 Madrid Comunidad de Madrid",
-        "locality": "Madrid",
-        "postcode": "28013",
-        "region": "Comunidad de Madrid"
-      },
-      "name": "El Riojano",
-      "related_places": {},
-      "timezone": "Europe/Madrid"
-    },
-    {
       "fsq_id": "4b682e30f964a520a36a2be3",
       "categories": [
         {
@@ -609,6 +544,71 @@
           }
         ]
       },
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "fsq_id": "50210c95e88943e176c98866",
+      "categories": [
+        {
+          "id": 13002,
+          "name": "Bakery",
+          "short_name": "Bakery",
+          "plural_name": "Bakeries",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13042,
+          "name": "Cupcake Shop",
+          "short_name": "Cupcakes",
+          "plural_name": "Cupcake Shops",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cupcakes_",
+            "suffix": ".png"
+          }
+        },
+        {
+          "id": 13065,
+          "name": "Restaurant",
+          "short_name": "Restaurant",
+          "plural_name": "Restaurants",
+          "icon": {
+            "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+            "suffix": ".png"
+          }
+        }
+      ],
+      "chains": [],
+      "closed_bucket": "LikelyOpen",
+      "distance": 459,
+      "geocodes": {
+        "drop_off": {
+          "latitude": 40.420307,
+          "longitude": -3.701034
+        },
+        "main": {
+          "latitude": 40.420394,
+          "longitude": -3.701172
+        },
+        "roof": {
+          "latitude": 40.420394,
+          "longitude": -3.701172
+        }
+      },
+      "link": "/v3/places/50210c95e88943e176c98866",
+      "location": {
+        "address": "Calle Hortaleza, 3",
+        "admin_region": "Comunidad de Madrid",
+        "country": "ES",
+        "formatted_address": "Calle Hortaleza, 3, 28004 Madrid Comunidad de Madrid",
+        "locality": "Madrid",
+        "postcode": "28004",
+        "region": "Comunidad de Madrid"
+      },
+      "name": "Celicioso",
+      "related_places": {},
       "timezone": "Europe/Madrid"
     }
   ],

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4b126b966933b6cb6123dad6459b07b6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4b126b966933b6cb6123dad6459b07b6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4b126b966933b6cb6123dad6459b07b6 = L.map(
+                "map_4b126b966933b6cb6123dad6459b07b6",
+                {
+                    center: [40.4167047, -3.7035825],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2fd680a146c9207ac9eb28b3ad439d1f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2fd680a146c9207ac9eb28b3ad439d1f.addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var marker_687efbb6d0abd80e4380b48297d0819a = L.marker(
+                [40.4167047, -3.7035825],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_c72cf3c763157b2299d77ffb661009eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3dca8f76133295e8d57a153d5cb7a58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0872e158e369edebd71181686e1a79e = $(`<div id="html_b0872e158e369edebd71181686e1a79e" style="width: 100.0%; height: 100.0%;">Madrid Center</div>`)[0];
+                popup_a3dca8f76133295e8d57a153d5cb7a58.setContent(html_b0872e158e369edebd71181686e1a79e);
+            
+        
+
+        marker_687efbb6d0abd80e4380b48297d0819a.bindPopup(popup_a3dca8f76133295e8d57a153d5cb7a58)
+        ;
+
+        
+    
+    
+                marker_687efbb6d0abd80e4380b48297d0819a.setIcon(icon_c72cf3c763157b2299d77ffb661009eb);
+            
+    
+            var marker_c9884a53581bf96fed5109db323085e5 = L.marker(
+                [40.417281, -3.703173],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_35b4a4050a7a9bd8d0058d4393627c74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_da24d228f530e3e998723e13c62420a4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_645cd9bfc13b2270fda52cf3bf85aabb = $(`<div id="html_645cd9bfc13b2270fda52cf3bf85aabb" style="width: 100.0%; height: 100.0%;">         <b>Forma 3 Aula Madrid</b><br>         Address: Plaza Puerta del Sol, 13 (calle Montera), 28013 Madrid Comunidad de Madrid<br>         Distance: 80 meters<br>         Hours: Hours not available<br>         Coordinates: 40.417281, -3.703173         </div>`)[0];
+                popup_da24d228f530e3e998723e13c62420a4.setContent(html_645cd9bfc13b2270fda52cf3bf85aabb);
+            
+        
+
+        marker_c9884a53581bf96fed5109db323085e5.bindPopup(popup_da24d228f530e3e998723e13c62420a4)
+        ;
+
+        
+    
+    
+                marker_c9884a53581bf96fed5109db323085e5.setIcon(icon_35b4a4050a7a9bd8d0058d4393627c74);
+            
+    
+            var marker_cbb2386675e5e735b46b4424800cc4d1 = L.marker(
+                [40.415841, -3.70378],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_5ff76730a0ec917d18a651150aa38109 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35b9306e6843a33643ae925e3c71be6d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4d95b1b82d2210e9706ae11a4edccf6 = $(`<div id="html_a4d95b1b82d2210e9706ae11a4edccf6" style="width: 100.0%; height: 100.0%;">         <b>Infografía 3D, Render 3D, Arquitectura 3D - Mayte Design</b><br>         Address: Calle de Barbieri, 3, 28004 Madrid Comunidad de Madrid<br>         Distance: 94 meters<br>         Hours: Hours not available<br>         Coordinates: 40.415841, -3.70378         </div>`)[0];
+                popup_35b9306e6843a33643ae925e3c71be6d.setContent(html_a4d95b1b82d2210e9706ae11a4edccf6);
+            
+        
+
+        marker_cbb2386675e5e735b46b4424800cc4d1.bindPopup(popup_35b9306e6843a33643ae925e3c71be6d)
+        ;
+
+        
+    
+    
+                marker_cbb2386675e5e735b46b4424800cc4d1.setIcon(icon_5ff76730a0ec917d18a651150aa38109);
+            
+    
+            var marker_5dafcc32771eb89e3569bf5d1e73672a = L.marker(
+                [40.416328, -3.704876],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_b48d8db1a9dead7b66b3f7f170b5b72d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8aa973f0ff28c4e026edc1d82cedbfea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5bb34f268dbab2371076695da6413658 = $(`<div id="html_5bb34f268dbab2371076695da6413658" style="width: 100.0%; height: 100.0%;">         <b>J. L. Gómez - Bascuñana</b><br>         Address: Calle de Esparteros 1-4, 28012 Madrid Comunidad de Madrid<br>         Distance: 128 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416328, -3.704876         </div>`)[0];
+                popup_8aa973f0ff28c4e026edc1d82cedbfea.setContent(html_5bb34f268dbab2371076695da6413658);
+            
+        
+
+        marker_5dafcc32771eb89e3569bf5d1e73672a.bindPopup(popup_8aa973f0ff28c4e026edc1d82cedbfea)
+        ;
+
+        
+    
+    
+                marker_5dafcc32771eb89e3569bf5d1e73672a.setIcon(icon_b48d8db1a9dead7b66b3f7f170b5b72d);
+            
+    
+            var marker_ea14250103f498d53af10163b33e643d = L.marker(
+                [40.418606, -3.703763],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_50e65074ab42aa42b19f041059140bc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66787b196de0f72a2f46f32b250ec05f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e71ec7fa9562e785f56c6a236488b32 = $(`<div id="html_7e71ec7fa9562e785f56c6a236488b32" style="width: 100.0%; height: 100.0%;">         <b>3rd Corner Store</b><br>         Address: Plaza del Carmen, 3, 28013 Madrid Comunidad de Madrid<br>         Distance: 201 meters<br>         Hours: Hours not available<br>         Coordinates: 40.418606, -3.703763         </div>`)[0];
+                popup_66787b196de0f72a2f46f32b250ec05f.setContent(html_7e71ec7fa9562e785f56c6a236488b32);
+            
+        
+
+        marker_ea14250103f498d53af10163b33e643d.bindPopup(popup_66787b196de0f72a2f46f32b250ec05f)
+        ;
+
+        
+    
+    
+                marker_ea14250103f498d53af10163b33e643d.setIcon(icon_50e65074ab42aa42b19f041059140bc2);
+            
+    
+            var marker_92d5f5d17c1a7f145aa0e22d78a46783 = L.marker(
+                [40.41521, -3.702055],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_9eef325009e20389b02c142839f95bb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19059d18cf839df39943c50bd64b916f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_56bc54518988267f0d5f05a5386a4fac = $(`<div id="html_56bc54518988267f0d5f05a5386a4fac" style="width: 100.0%; height: 100.0%;">         <b>3 de Pulpo</b><br>         Address: Calle Uranio, 27, 28500 Arganda del Rey Comunidad de Madrid<br>         Distance: 210 meters<br>         Hours: Hours not available<br>         Coordinates: 40.41521, -3.702055         </div>`)[0];
+                popup_19059d18cf839df39943c50bd64b916f.setContent(html_56bc54518988267f0d5f05a5386a4fac);
+            
+        
+
+        marker_92d5f5d17c1a7f145aa0e22d78a46783.bindPopup(popup_19059d18cf839df39943c50bd64b916f)
+        ;
+
+        
+    
+    
+                marker_92d5f5d17c1a7f145aa0e22d78a46783.setIcon(icon_9eef325009e20389b02c142839f95bb5);
+            
+    
+            var marker_81b137179dcde54d025a5fd6607444e3 = L.marker(
+                [40.418707, -3.702266],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_b07b4455d8c0ccd04ae96e37f6312d71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_874f7cfc2bdbdf74e97f69b534a8392f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2e0285edd4b481cc2faafde4528c036d = $(`<div id="html_2e0285edd4b481cc2faafde4528c036d" style="width: 100.0%; height: 100.0%;">         <b>Sex Shop Montera 30</b><br>         Address: Montera, 30, Madrid Comunidad de Madrid<br>         Distance: 248 meters<br>         Hours: Hours not available<br>         Coordinates: 40.418707, -3.702266         </div>`)[0];
+                popup_874f7cfc2bdbdf74e97f69b534a8392f.setContent(html_2e0285edd4b481cc2faafde4528c036d);
+            
+        
+
+        marker_81b137179dcde54d025a5fd6607444e3.bindPopup(popup_874f7cfc2bdbdf74e97f69b534a8392f)
+        ;
+
+        
+    
+    
+                marker_81b137179dcde54d025a5fd6607444e3.setIcon(icon_b07b4455d8c0ccd04ae96e37f6312d71);
+            
+    
+            var marker_88862aa714c27739b75bd7db61799f74 = L.marker(
+                [40.41491, -3.708153],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_bfa51036daf2d57504d92d35734b6ef2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91787a937fb1493807b16793ed9ca0ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b0a0e5d39e83a10b671409092aee83a = $(`<div id="html_8b0a0e5d39e83a10b671409092aee83a" style="width: 100.0%; height: 100.0%;">         <b>Los 3 Cerditos Ibéricos</b><br>         Address: Calle la Cruz, 3, 28005 Madrid Comunidad de Madrid<br>         Distance: 254 meters<br>         Hours: Hours not available<br>         Coordinates: 40.41491, -3.708153         </div>`)[0];
+                popup_91787a937fb1493807b16793ed9ca0ff.setContent(html_8b0a0e5d39e83a10b671409092aee83a);
+            
+        
+
+        marker_88862aa714c27739b75bd7db61799f74.bindPopup(popup_91787a937fb1493807b16793ed9ca0ff)
+        ;
+
+        
+    
+    
+                marker_88862aa714c27739b75bd7db61799f74.setIcon(icon_bfa51036daf2d57504d92d35734b6ef2);
+            
+    
+            var marker_19d7eb897c637b2e13285ca94d130ab5 = L.marker(
+                [40.415404, -3.701132],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_e8581c6d61c6385a25366f02d304471d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6832bbf3395774e4d3e1910ae2a6ba0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ecce8d8c9a308007f8d62d31fe02b6d3 = $(`<div id="html_ecce8d8c9a308007f8d62d31fe02b6d3" style="width: 100.0%; height: 100.0%;">         <b>Estudio 3</b><br>         Address: Calle Núñez de Arce, 11, 28012 Madrid Comunidad de Madrid<br>         Distance: 255 meters<br>         Hours: Hours not available<br>         Coordinates: 40.415404, -3.701132         </div>`)[0];
+                popup_d6832bbf3395774e4d3e1910ae2a6ba0.setContent(html_ecce8d8c9a308007f8d62d31fe02b6d3);
+            
+        
+
+        marker_19d7eb897c637b2e13285ca94d130ab5.bindPopup(popup_d6832bbf3395774e4d3e1910ae2a6ba0)
+        ;
+
+        
+    
+    
+                marker_19d7eb897c637b2e13285ca94d130ab5.setIcon(icon_e8581c6d61c6385a25366f02d304471d);
+            
+    
+            var marker_6f9369fd872d64374bd06af58af5b1c4 = L.marker(
+                [40.418805, -3.701995],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_4b81baaab6add12231f210990a403bf7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b31ec5d2a1a3db449111b54460426508 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_799ee40804020b0fbc5fb64ceae0397c = $(`<div id="html_799ee40804020b0fbc5fb64ceae0397c" style="width: 100.0%; height: 100.0%;">         <b>Diga 33</b><br>         Address: Calle Montera, 32, 28013 Madrid Comunidad de Madrid<br>         Distance: 269 meters<br>         Hours: Hours not available<br>         Coordinates: 40.418805, -3.701995         </div>`)[0];
+                popup_b31ec5d2a1a3db449111b54460426508.setContent(html_799ee40804020b0fbc5fb64ceae0397c);
+            
+        
+
+        marker_6f9369fd872d64374bd06af58af5b1c4.bindPopup(popup_b31ec5d2a1a3db449111b54460426508)
+        ;
+
+        
+    
+    
+                marker_6f9369fd872d64374bd06af58af5b1c4.setIcon(icon_4b81baaab6add12231f210990a403bf7);
+            
+    
+            var marker_96a4d83cab5a6724fab06c67853306e4 = L.marker(
+                [40.416716, -3.700196],
+                {
+}
+            ).addTo(map_4b126b966933b6cb6123dad6459b07b6);
+        
+    
+            var icon_772a59d4cc00d97e5d80c9489d8dc572 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1560e58200b9274ed261a7e241bb5dc5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_020aebf59a85cd23c4912c5afdc0e982 = $(`<div id="html_020aebf59a85cd23c4912c5afdc0e982" style="width: 100.0%; height: 100.0%;">         <b>L B Plus System</b><br>         Address: Polígono Industrial del Llano Castellano, 11, 28034 Madrid Comunidad de Madrid<br>         Distance: 286 meters<br>         Hours: Hours not available<br>         Coordinates: 40.416716, -3.700196         </div>`)[0];
+                popup_1560e58200b9274ed261a7e241bb5dc5.setContent(html_020aebf59a85cd23c4912c5afdc0e982);
+            
+        
+
+        marker_96a4d83cab5a6724fab06c67853306e4.bindPopup(popup_1560e58200b9274ed261a7e241bb5dc5)
+        ;
+
+        
+    
+    
+                marker_96a4d83cab5a6724fab06c67853306e4.setIcon(icon_772a59d4cc00d97e5d80c9489d8dc572);
+            
+</script>
+</html>

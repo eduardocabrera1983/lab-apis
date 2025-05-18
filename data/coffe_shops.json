@@ -1,35 +1,5 @@
 [
   {
-    "name": "El Riojano",
-    "coordinates": {
-      "latitude": 40.416526,
-      "longitude": -3.705941
-    },
-    "address": "Calle Mayor, 10, 28013 Madrid Comunidad de Madrid",
-    "distance": 198,
-    "categories": [
-      "Bakery",
-      "Dessert Shop",
-      "Restaurant"
-    ],
-    "hours": null,
-    "fsq_id": "4b929438f964a520440634e3"
-  },
-  {
-    "name": "Mimi's Creperia",
-    "coordinates": {
-      "latitude": 40.415673,
-      "longitude": -3.706148
-    },
-    "address": "Calle Postas, 17, 28012 Madrid Comunidad de Madrid",
-    "distance": 248,
-    "categories": [
-      "Restaurant"
-    ],
-    "hours": null,
-    "fsq_id": "4b682e30f964a520a36a2be3"
-  },
-  {
     "name": "El Jard\u00edn de Salvador Bachiller",
     "coordinates": {
       "latitude": 40.419109,
@@ -148,5 +118,36 @@
     ],
     "hours": null,
     "fsq_id": "50340653e0e24113d87d7a88"
+  },
+  {
+    "name": "Celicioso",
+    "coordinates": {
+      "latitude": 40.420394,
+      "longitude": -3.701172
+    },
+    "address": "Calle Hortaleza, 3, 28004 Madrid Comunidad de Madrid",
+    "distance": 459,
+    "categories": [
+      "Bakery",
+      "Cupcake Shop",
+      "Restaurant"
+    ],
+    "hours": null,
+    "fsq_id": "50210c95e88943e176c98866"
+  },
+  {
+    "name": "Oink Jam\u00f3n Ib\u00e9rico",
+    "coordinates": {
+      "latitude": 40.419877,
+      "longitude": -3.699476
+    },
+    "address": "Calle Gran V\u00eda, 22, 28013 Madrid Comunidad de Madrid",
+    "distance": 462,
+    "categories": [
+      "Cafe, Coffee, and Tea House",
+      "Sandwich Spot"
+    ],
+    "hours": null,
+    "fsq_id": "57784e38498e5d7f66a50c43"
   }
 ]
